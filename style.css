@@ -1,0 +1,141 @@
+* {
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.p_drag {
+    border: 1px solid #FFAA00;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+	border-radius: 20px;
+    width: 170px;
+	text-align: center;
+}
+
+.inline {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background: #dfa92d;
+    color: white;
+    font-size: 20px;
+}
+
+.footer {
+    position: absolute;
+    top: 1000px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: #dfa92d;
+    color: white;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;;
+}
+
+.separator {
+    border-left: 2px solid grey;
+    height: 200px;
+    position: absolute;
+    left: 35%;
+    top: 300px;
+}
+
+.signature {
+    font-size: 12px;
+}
+
+.texte {
+    position: absolute;
+    left: 40%;
+    top: 280px;
+    font-size: 25px;
+    width: 45%;
+}
+
+.fleche {
+    position: absolute;
+    left: 90%;
+    bottom: 10px;
+    font-size: 50px;
+    color: #dfa92d;
+}
+
+#bouton, #bouton2, #bouton3, #bouton4, #bouton5, #bouton6, #bouton7, #bouton8, #bouton9, #bouton10, #bouton11, #bouton12 {
+	background-color: #FFAA00;
+	border: 1px solid #FFAA00;
+	border-radius: 20px;
+    width: 150px;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.19);
+	transition-duration: 0.2s;
+}
+
+#bouton:hover, #bouton2:hover, #bouton3:hover, #bouton4:hover, #bouton5:hover, #bouton6:hover, #bouton7:hover, #bouton8:hover, #bouton9:hover, #bouton10:hover, #bouton11:hover, #bouton12:hover {
+	background-color: white;
+	color: #FFAA00;
+}
+
+.bouton {
+    background-color: #FFAA00;
+	border: 1px solid #FFAA00;
+	border-radius: 20px;
+    width: 150px;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.19);
+	transition-duration: 0.2s;
+}
+
+.bouton:hover {
+    background-color: white;
+	color: #FFAA00;
+}
+#label1 {
+    position: absolute;
+    left: 5%;
+    top: 200px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#label2 {
+    position: absolute;
+    left: 40%;
+    top: 200px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#boutons {
+    position: absolute;
+    left: 5%;
+    top: 320px;
+}
+
+#boutons2 {
+    position: absolute;
+    left: 20%;
+    top: 320px;
+}
